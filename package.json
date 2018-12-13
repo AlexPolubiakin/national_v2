@@ -1,0 +1,20 @@
+{
+  "name": "pioneer-home-final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss dist/css/style.css -w",
+    "compile:bootstrap": "node-sass sass/bootstrap.scss dist/css/bootstrap.css",
+    "compile:fa": "node-sass sass/fontawesome.scss dist/css/fontawesome.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "node-sass": "^4.10.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.5.0"
+  }
+}
