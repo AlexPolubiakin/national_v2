@@ -1,0 +1,24 @@
+.icon_img_logo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  right: 0px;
+}
+
+@media (max-width: 75em) {
+  //1200
+  .icon_img_logo {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media (max-width: 62em) {
+  // 992
+  .icon_img_logo {
+    width: 70px;
+    height: 70px;
+  }
+}

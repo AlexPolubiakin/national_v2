@@ -1,0 +1,53 @@
+.text-main {
+  color: $color-primary;
+}
+
+.text-main-hover {
+  &:hover {
+    color: $color-primary;
+    text-decoration: underline;
+  }
+}
+
+.bg-main {
+  background-color: $color-black;
+}
+
+.line-color {
+  background-color: $color-primary;
+  color: $color-primary;
+}
+
+.u-m-top-big {
+  margin-top: 10rem !important;
+}
+
+.u-m-t-8 {
+  margin-top: 8rem !important;
+}
+
+.u-m-t-6 {
+  margin-top: 6rem !important;
+}
+
+.u-m-t-4 {
+  margin-top: 4rem !important;
+}
+
+.u-m-t-2 {
+  margin-top: 4rem !important;
+}
+
+.u-m-adm-sm {
+  margin-top: 40px;
+}
+
+.u-m-adm-xl {
+  margin-top: 140px;
+}
+
+.main-page-h1 {
+  position: absolute;
+  left: -9999rem;
+  top: -9999rem;
+}

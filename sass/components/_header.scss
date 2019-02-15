@@ -1,0 +1,72 @@
+.header {
+  z-index: 50 !important;
+  transition: all 2s;
+  &__container {
+    background-color: $color-black;
+    box-shadow: 0 0.5rem 2rem -2px $color-black;
+    z-index: 50 !important;
+  }
+  &__link {
+    color: $color-white;
+    margin: 1rem;
+    font-size: 1.2rem;
+    &:hover {
+      color: $color-primary !important;
+      text-decoration: underline;
+    }
+  }
+}
+
+.navbar-brand {
+  transition: all 0.7s;
+}
+
+.tiny {
+  height: 40px;
+}
+
+#logo {
+  animation: moveInLeft 1s ease-out;
+  height: 3.125rem;
+}
+
+@media (min-width: 75.0625rem) {
+  //>1200
+  #logo {
+    height: 50px;
+  }
+}
+
+@media (max-width: 75rem) {
+  //1200
+  #logo {
+    height: 40px;
+  }
+  .header__link {
+    margin: 0.5rem;
+  }
+  .searchbar {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 65.625rem) {
+  //1050
+  #logo {
+    height: 35px;
+  }
+}
+
+@media (max-width: 23.125rem) {
+  // 370
+  #logo {
+    height: 30px;
+  }
+}
+
+@media (max-width: 20.625rem) {
+  //330
+  #logo {
+    height: 25px;
+  }
+}

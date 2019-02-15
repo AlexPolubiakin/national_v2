@@ -1,0 +1,13 @@
+.page-slider {
+  background-color: black;
+}
+
+.onepage-pagination {
+  li a::before {
+    content: "\2022 ";
+    color: $color-white;
+  }
+  li a.active::before {
+    border-color: $color-white;
+  }
+}

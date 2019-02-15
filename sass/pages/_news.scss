@@ -1,0 +1,19 @@
+.news {
+  transition: all 0.4s;
+  &__img {
+    // height: 300px;
+    animation: moveInTop 1s ease-in-out;
+  }
+  &__link {
+    color: $color-primary;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+  &__header {
+    animation: moveInRight 1.5s ease-in-out;
+  }
+  &__text {
+    animation: moveInLeft 1.5s ease-out;
+  }
+}

@@ -1,0 +1,96 @@
+.product {
+  margin: 0.5rem 0rem;
+  text-align: center;
+  @include respond(phone) {
+    margin: 0.25rem 0rem;
+  }
+  &__wrapper {
+    position: relative;
+
+    border: 1px solid $color-primary;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    height: 100%;
+    overflow: hidden;
+    @include respond(tab-md) {
+      padding: 1rem;
+    }
+    &:hover {
+      border: 1px solid $color-primary;
+    }
+  }
+  &__image {
+    transition: all 0.7s;
+    max-width: 100%;
+    height: 12rem;
+    align-self: center;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  &__link {
+    color: $color-primary;
+    font-size: 1.1rem;
+    transition: all 0.5s;
+    @include respond(tab-md) {
+      font-size: 1rem;
+    }
+    &:hover {
+      // text-decoration: none;
+      color: $color-primary;
+    }
+  }
+  &__text {
+    color: $color-primary;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}
+
+// media
+// breakpoints
+$catalog-bp-sm: 48em; //768
+$catalog-bp-md: 62.5em; //1000px
+$catalog-bp-lg: 75em; //1200px
+@media (max-width: $catalog-bp-lg) {
+  .product {
+    &__image {
+      height: 10rem;
+    }
+    &__wrapper {
+      padding: 1rem;
+    }
+    &__text {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+@media (max-width: $catalog-bp-md) {
+  .product {
+    &__image {
+      height: 8rem;
+    }
+    &__wrapper {
+      padding: 1rem;
+    }
+    &__text {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media (max-width: $catalog-bp-sm) {
+  .product {
+    &__image {
+      height: 7rem;
+    }
+    &__wrapper {
+      padding: 0.5rem;
+    }
+    &__text {
+      font-size: 0.7rem;
+    }
+  }
+}

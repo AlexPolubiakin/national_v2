@@ -1,0 +1,25 @@
+.breadcrumb {
+    animation: moveInBottom 1s ease-out;
+    background-color: $color-black;
+    color: $color-white;
+    &__cont {
+        list-style-type: none;
+        display: inline-block;
+        list-style: none;
+    }
+    &__item {
+        display: inline;
+        &:not(:last-child):after {
+            content: "/";
+        }
+    }
+    &__link {
+        color: $color-white;
+        transition: all 0.7s;
+        margin: 0 0.3rem;
+        &:hover {
+            color: $color-primary; //   text-decoration: none;
+            text-indent: 0;
+        }
+    }
+}

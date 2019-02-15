@@ -1,12 +1,26 @@
-/*
-* TEST
-*/
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-/**
-* IMPORTS
-*/
+// Import abstract
+@import "sass/abstract/variables";
+@import "sass/abstract/mixins";
+// Import base
+@import "sass/base/base";
+@import "sass/base/typhography";
+@import "sass/base/util";
+@import "sass/base/animations";
+// Import pages
+@import "sass/pages/home";
+@import "sass/pages/service";
+@import "sass/pages/news";
+@import "sass/pages/product";
+@import "sass/pages/contact";
+@import "sass/pages/history";
+@import "sass/pages/sitemap";
+// Import Components
+@import "sass/components/footer";
+@import "sass/components/main_slider";
+@import "sass/components/searchbar";
+@import "sass/components/header";
+@import "sass/components/breadcrumb";
+@import "sass/components/catalog";
+@import "sass/components/catalog_icon_img";
+// @import "sass/components/scrolling_mouse";
+@import "sass/components/down_arrow";

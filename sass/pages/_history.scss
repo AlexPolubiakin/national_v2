@@ -1,0 +1,17 @@
+.history {
+    &__body {
+        background-color: black;
+    }
+    &__btn {}
+    &__card-header {
+        background-color: black;
+        color: $color-primary;
+    }
+    &__card {
+        border: none;
+    }
+}
+
+.card-header:first-child {
+    border-radius: 0;
+}

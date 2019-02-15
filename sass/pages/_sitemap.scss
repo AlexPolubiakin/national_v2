@@ -1,0 +1,12 @@
+.site-map__item {
+    background-color: black;
+    border: 1px solid $color-primary;
+}
+
+.site-map__link {
+    color: white;
+    &:hover {
+        text-decoration: underline;
+        color: $color-primary;
+    }
+}

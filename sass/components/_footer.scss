@@ -1,0 +1,32 @@
+.footer {
+    background-color: $color-black;
+    &__logo {
+        margin-top: 1rem;
+    }
+    .list-group-item {
+        background-color: $color-black;
+    }
+    .list-group {
+        color: $color-white;
+    }
+    &__link {
+        color: $color-white;
+        font-size: 1.2rem;
+        padding: 0;
+        &:hover {
+            color: $color-primary;
+            text-decoration: underline;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+    &__img-image {
+        height: 30px;
+    }
+}
+
+.footer__line {
+    background-color: $color-white;
+    margin: 2rem auto 0rem auto;
+}

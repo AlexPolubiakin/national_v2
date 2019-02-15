@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Starter template</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&amp;subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="css/twentytwenty.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-main">
+    <header class="header sticky-top">
+      <nav class="navbar navbar-dark header__container">
+        <a class="navbar-brand p-2 justify-content-start" href="#">
+          <img
+            src="img/national_logo_gold-small.png"
+            height="50"
+            alt="main_logo"
+            class="img-fluid"
+          />
+        </a>
+
+        <ul class="nav justify-content-end nav__main align-middle">
+          <div class="search-box mr-3 nav-item">
+            <form class="search-form">
+              <input
+                class="form-control search-box__input"
+                placeholder="Поиск..."
+                type="text"
+              />
+              <button class="btn btn-link search-btn">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+          <li class="nav-item ">
+            <a class="nav-link header__link" href="#">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link header__link" href="#">Каталог</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link header__link" href="#">История</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link header__link" href="#">Сервис</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link header__link" href="#">Новости</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link header__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="product">
+      <div class="container">
+        <div class="product__carousel mt-3">
+          <div class="row">
+            <div class="col-10 mx-auto">
+              <div class="product__header-container ">
+                <!-- d-flex justify-content-between align-items-baseline -->
+                <h2 class="product__header text-main mt-5">
+                  Телевизор National NX-32TH100
+                </h2>
+                <!-- <span>
+                  <img src="img/product/icons.png" alt="icons" height="40" class="" />
+                </span> -->
+              </div>
+              <div
+                id="product-carousel"
+                class="carousel slide product-carousel-wrapper"
+                data-ride="carousel"
+                data-interval="false"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a
+                      href="img/product/product-image-1.png"
+                      data-lightbox="image-1"
+                    >
+                      <img
+                        src="img/product/product-image-1.png"
+                        alt="back-image"
+                        class="img-fluid"
+                      />
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a
+                      href="img/product/product-image-2.png"
+                      data-lightbox="image-1"
+                      ><img
+                        src="img/product/product-image-2.png"
+                        alt="back-image"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a
+                      href="img/product/product-image-2.png"
+                      data-lightbox="image-1"
+                      ><img
+                        src="img/product/product-image-2.png"
+                        alt="back-image"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a
+                      href="img/product/product-image-2.png"
+                      data-lightbox="image-1"
+                      ><img
+                        src="img/product/product-image-2.png"
+                        alt="back-image"
+                        class="img-fluid"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-5 thumbnail-images">
+                <div class="col-3 product__thumb">
+                  <img
+                    src="img/product/product-image-1.png"
+                    alt="image thumb"
+                    data-target="#product-carousel"
+                    data-slide-to="0"
+                    class="img-thumbnail active"
+                  />
+                </div>
+                <div class="col-3 product__thumb">
+                  <img
+                    src="img/product/product-image-2.png"
+                    alt="image thumb"
+                    data-target="#product-carousel"
+                    data-slide-to="1"
+                    class="img-thumbnail"
+                  />
+                </div>
+                <div class="col-3 product__thumb">
+                  <img
+                    src="img/product/product-image-1.png"
+                    alt="image thumb"
+                    data-target="#product-carousel"
+                    data-slide-to="2"
+                    class="img-thumbnail"
+                  />
+                </div>
+                <div class="col-3 product__thumb">
+                  <img
+                    src="img/product/product-image-1.png"
+                    alt="img-thumbnail"
+                    data-target="#product-carousel"
+                    data-slide-to="3"
+                    class="img-thumbnail"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row mt-5 mx-1">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/product/unnamed.gif" alt="gif" height="140" />
+              </div>
+              <div class="col-8">
+                <h4 class="main-text text-left text-white">Умный выбор</h4>
+                <p class="text-justify text-white">
+                  Телевизоры стали гораздо умнее, чем вы ожидали.
+                  Смарт-телевизор National NX-32THS100 станет вашим надежным
+                  проводником в мир интернет-возможностей.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <p class="text-justify text-white">
+              Смотрите ролики на Youtube, фильмы в онлайн кинотеатрах прямо на
+              большом экране телевизора. Насладитесь просмотром вебсайтов и
+              соцсетей в крупном и четком формате, общайтесь с друзьями и
+              родственниками с помощью видеозвонков с высоким качеством
+              изображения и огромной картинкой.
+            </p>
+          </div>
+        </div> -->
+
+        <!-- <div class="row mt-3 mx-1"> -->
+        <!-- <h2 class="text-main">Миллионы цветов</h2>
+          <p class="text-justify text-white">
+            Телевизоры стали гораздо умнее, чем вы ожидали. Смарт-телевизор
+            National NX-32THS100 станет вашим надежным проводником в мир
+            интернет-возможностей. Смотрите ролики на Youtube, фильмы в онлайн
+            кинотеатрах прямо на большом экране телевизора. Насладитесь
+            просмотром вебсайтов и соцсетей в крупном и четком формате,
+            общайтесь с друзьями и родственниками с помощью видеозвонков с
+            высоким качеством изображения и огромной картинкой.
+          </p> -->
+
+        <!-- <div class="image-slider mx-auto row">
+            <div class="col-md-12">
+              <img
+                src="img/product/tv-background.png"
+                class="image-slider__img image-slider__img-back"
+                alt="tv-background"
+              />
+            </div>
+          </div> -->
+        <!-- </div> -->
+        <!-- <div class="image-slider__wrapper">
+          <img
+            src="img/product/screen-image.png"
+            alt="screen-image"
+            class="image-slider__img image-slider__img-front-1"
+          />
+          <img
+            src="img/product/screen-image.png"
+            alt="screen-image"
+            class="image-slider__img image-slider__img-front-2"
+          />
+        </div> -->
+
+        <div class="row my-3 mx-1">
+          <h2 class="text-main my-4">Эргономичный пульт управления</h2>
+          <p class="text-justify text-white">
+            Телевизоры стали гораздо умнее, чем вы ожидали. Смарт-телевизор
+            National NX-32THS100 станет вашим надежным проводником в мир
+            интернет-возможностей. Смотрите ролики на Youtube, фильмы в онлайн
+            кинотеатрах прямо на большом экране телевизора. Насладитесь
+            просмотром вебсайтов и соцсетей в крупном и четком формате,
+            общайтесь с друзьями и родственниками с помощью видеозвонков с
+            высоким качеством изображения и огромной картинкой.
+          </p>
+          <a
+            href="img/product/pult.png"
+            data-lightbox="pult"
+            class="mt-3 mx-auto"
+            ><img src="img/product/pult.png" alt="back-image" class="img-fluid"
+          /></a>
+        </div>
+        <div class="row mt-5 mx-1">
+          <h2 class="text-main">Роскошный внешний вид</h2>
+          <a
+            href="img/product/roskoshnii-vid.png"
+            data-lightbox="vid"
+            class="mt-3 mx-auto"
+            ><img
+              src="img/product/roskoshnii-vid.png"
+              alt="back-image"
+              class="img-fluid"
+          /></a>
+        </div>
+        <div class="row mt-5 mx-1">
+          <h2 class="text-main">
+            Технические характеристики и функциональность
+          </h2>
+          <div class="col-md-6">
+            <div class="img__wrapper">
+              <img
+                src="img/product/icons.png"
+                alt="icons image"
+                class="icon__img img-fluid mt-5 mx-3"
+              />
+            </div>
+            <div class="container mt-5">
+              <div class="row my-3">
+                <div class="col-6 catalog-elem-name">
+                  <span class="text-main">Формат экрана:</span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">16:9</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="col-6 catalog-elem-name ">
+                  <span class="text-main">Формат изображения:</span>
+                </div>
+                <div class="col-6 catalog-elem-value">
+                  <span class="text-secondary">16:9, 4:3</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main"> Увеличение:</span>
+                </div>
+                <div class="col-6 catalog-elem-value">
+                  <span class="text-secondary">Авто</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main">Диагональ:</span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">32</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main"
+                    >Разрешение (потенциальное) (Г/В):</span
+                  >
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">3840х2160</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main">Поддержка HDTV: </span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">есть</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main">Яркость: </span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">250 кд/м3</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main">Динамическая контрастность: </span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">120000:1</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main">Угол обзора (Г/В):</span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">178/178</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="col-6 catalog-elem-name">
+                  <span class="text-main">Формат экрана:</span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">16:9</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="col-6 catalog-elem-name ">
+                  <span class="text-main">Формат изображения:</span>
+                </div>
+                <div class="col-6 catalog-elem-value">
+                  <span class="text-secondary">16:9, 4:3</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main"> Увеличение:</span>
+                </div>
+                <div class="col-6 catalog-elem-value">
+                  <span class="text-secondary">Авто</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main">Диагональ:</span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">32</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main"
+                    >Разрешение (потенциальное) (Г/В):</span
+                  >
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">3840х2160</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main">Поддержка HDTV: </span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">есть</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main">Яркость: </span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">250 кд/м3</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main">Динамическая контрастность: </span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">120000:1</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main">Угол обзора (Г/В):</span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">178/178</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main">Диагональ:</span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">32</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main"
+                    >Разрешение (потенциальное) (Г/В):</span
+                  >
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">3840х2160</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main">Поддержка HDTV: </span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">есть</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main">Яркость: </span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">250 кд/м3</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main">Динамическая контрастность: </span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">120000:1</span>
+                </div>
+              </div>
+              <div class="row my-3">
+                <div class="catalog-elem-name col-6">
+                  <span class="text-main">Угол обзора (Г/В):</span>
+                </div>
+                <div class="col-6 catalog-elem-value ">
+                  <span class="text-secondary">178/178</span>
+                </div>
+              </div>
+              <div class="row my-3 instruction">
+                <div class="catalog-elem-name col-6 text-white mt-3">
+                  <h6 class="">Инструкция по эксплуатации:</h6>
+                </div>
+                <div class="catalog-elem-name col-6 mt-3">
+                  <a href="#" class="text-main">Скачать</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <a href="img/product/back.png" data-lightbox="back-image"
+              ><img
+                src="img/product/back.png"
+                alt="back-image"
+                class="img-fluid"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container mt-3 footer bg-main">
+      <hr class="footer__line u-m-top-big" />
+      <div class="col-md-4 d-md-none d-md-block footer__logo">
+        <a href="#">
+          <img
+            src="img/national_logo_gold-small.png"
+            alt="footer_logo"
+            class="img-fluid footer__img-image"
+          />
+        </a>
+      </div>
+      <div class="row mx-auto p-5">
+        <div class="col-md-4 col-sm-6 ">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a class="nav-link footer__link" href="#">О компании</a>
+            </li>
+            <li class="list-group-item">
+              <a class="nav-link footer__link" href="#">Новости</a>
+            </li>
+            <li class="list-group-item">
+              <a class="nav-link footer__link" href="#">Конкурсы</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <a class="nav-link footer__link" href="#">Контакты</a>
+            </li>
+            <li class="list-group-item">
+              <a class="nav-link footer__link" href="#">Где купить</a>
+            </li>
+            <li class="list-group-item">
+              <a class="nav-link footer__link" href="#">Карта сайта</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item ml-3 font-weight-bold">
+              Нужна помощь ?
+            </li>
+            <li class="list-group-item">
+              <a class="nav-link footer__link" href="#">Сервисные центры</a>
+            </li>
+            <li class="list-group-item">
+              <a class="nav-link footer__link" href="#">Обратная связь</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.twentytwenty.js"></script>
+    <script>
+      $(function() {
+        $(".image-slider__wrapper").twentytwenty({ default_offset_pct: 0.5 });
+      });
+    </script>
+  </body>
+</html>
